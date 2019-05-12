@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration debug="false" scan="true" scanPeriod="30 seconds">
+    <contextName>logback</contextName>
+
+    <property name="log.path" value="target/logs" />
+    <property name="encoding" value="UTF-8" />
+    <property name="plain" value="%red(%msg%n)" />
+    <property name="down" value="%date %level [%thread] %logger{36} [%file : %line] %msg%n"/>
+    <property name="std" value="%white(%d{yyyy-MM-dd HH:mm:ss}) %highlight(%lsn) %green([%thread]) %highlight(%-5level) %boldMagenta(%logger{10}) - %cyan(%msg%n)"/>
+
+
+    <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${plain}</pattern>
+            <charset>${encoding}</charset>
+        </encoder>
+    </appender>
+    <appender name="file" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <File>${log.dir}/file.log</File>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <FileNamePattern>${log.dir}/file.%d{yyyy-MM-dd}.log</FileNamePattern>
+            <MaxHistory>30</MaxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${down}</pattern>
+            <charset>${encoding}</charset>
+        </encoder>
+    </appender>
+    <logger name="root">
+        <level value="ERROR"/>
+    </logger>
+    <logger name="com.gbicc">
+        <level value="DEBUG"/>
+    </logger>
+    <root>
+        <appender-ref ref="stdout" />
+        <appender-ref ref="file" />
+    </root>
+
+</configuration>
+
