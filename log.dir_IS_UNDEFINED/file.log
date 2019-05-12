@@ -2292,3 +2292,177 @@ org.activiti.engine.ActivitiException: Errors while parsing:
 2019-05-12 17:26:01,071 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 94] 您输入的内容是 [n]
 2019-05-12 17:26:01,072 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 95] ======================================
 2019-05-12 17:26:01,143 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 106] 结束程序
+2019-05-12 17:57:20,671 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 39] 启动程序
+2019-05-12 17:57:22,062 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 46] 流程引擎的名称 [default] ，流程引擎的版本 [6.0.0.4]
+2019-05-12 17:57:25,383 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 58] 流程定义文件 [二级审批流程] ，流程ID [second_approve:1:4] ，流程KEY [second_approve]
+2019-05-12 17:57:25,428 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 63] 启动流程 [second_approve]，[second_approve:1:4] 
+2019-05-12 17:57:25,456 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 71] 带处理的任务数量 [1]
+2019-05-12 17:57:25,465 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 74] 带处理的任务 [填写申请信息]
+2019-05-12 17:57:25,465 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 75] ======================================
+2019-05-12 17:57:25,477 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 82] 请输入 申请信息 ?
+2019-05-12 17:57:29,579 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 94] 您输入的内容是 [353455]
+2019-05-12 17:57:29,581 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 95] ======================================
+2019-05-12 17:57:29,582 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 82] 请输入 申请人姓名 ?
+2019-05-12 17:57:32,212 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 94] 您输入的内容是 [63436]
+2019-05-12 17:57:32,213 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 95] ======================================
+2019-05-12 17:57:32,213 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 86] 请输入 申请时间 ? 格式：(yyyy-MM-dd)
+2019-05-12 17:57:37,096 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 94] 您输入的内容是 [3333-6-3]
+2019-05-12 17:57:37,097 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 95] ======================================
+2019-05-12 17:57:37,097 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 82] 请输入 确认申请 ?
+2019-05-12 17:57:38,430 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 94] 您输入的内容是 [n]
+2019-05-12 17:57:38,431 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 95] ======================================
+2019-05-12 17:57:38,497 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 106] 结束程序
+2019-05-12 18:07:42,373 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 39] 启动程序
+2019-05-12 18:07:44,330 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 46] 流程引擎的名称 [default] ，流程引擎的版本 [6.0.0.4]
+2019-05-12 18:07:46,965 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 58] 流程定义文件 [二级审批流程] ，流程ID [second_approve:1:4] ，流程KEY [second_approve]
+2019-05-12 18:07:46,990 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 63] 启动流程 [second_approve]，[second_approve:1:4] 
+2019-05-12 18:07:47,005 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 71] 带处理的任务数量 [1]
+2019-05-12 18:07:47,012 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 74] 带处理的任务 [填写申请信息]
+2019-05-12 18:07:47,013 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 75] ======================================
+2019-05-12 18:07:47,023 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 82] 请输入 申请信息 ?
+2019-05-12 18:08:06,242 ERROR [main] com.gbicc.activiti.DomeMain [DomeMain.java : 85] 您的输入有误，请按照要求输入！[fewfw]
+2019-05-12 18:08:06,244 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 86] 请输入 申请信息 ?
+2019-05-12 18:08:07,253 ERROR [main] com.gbicc.activiti.DomeMain [DomeMain.java : 85] 您的输入有误，请按照要求输入！[fewefw]
+2019-05-12 18:08:07,253 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 86] 请输入 申请信息 ?
+2019-05-12 18:08:08,879 ERROR [main] com.gbicc.activiti.DomeMain [DomeMain.java : 85] 您的输入有误，请按照要求输入！[2342424]
+2019-05-12 18:08:08,879 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 86] 请输入 申请信息 ?
+2019-05-12 18:08:32,460 ERROR [main] com.gbicc.activiti.DomeMain [DomeMain.java : 85] 您的输入有误，请按照要求输入！[请假]
+2019-05-12 18:08:32,461 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 86] 请输入 申请信息 ?
+2019-05-12 18:09:27,911 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 39] 启动程序
+2019-05-12 18:09:29,914 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 46] 流程引擎的名称 [default] ，流程引擎的版本 [6.0.0.4]
+2019-05-12 18:09:32,779 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 58] 流程定义文件 [二级审批流程] ，流程ID [second_approve:1:4] ，流程KEY [second_approve]
+2019-05-12 18:09:32,813 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 63] 启动流程 [second_approve]，[second_approve:1:4] 
+2019-05-12 18:09:32,837 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 71] 带处理的任务数量 [1]
+2019-05-12 18:09:32,844 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 74] 带处理的任务 [填写申请信息]
+2019-05-12 18:09:32,844 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 75] ======================================
+2019-05-12 18:09:32,858 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 82] 请输入 申请信息 ?
+2019-05-12 18:09:35,538 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 99] 您输入的内容是 [2222]
+2019-05-12 18:09:35,538 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 100] ======================================
+2019-05-12 18:09:35,539 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 82] 请输入 申请人姓名 ?
+2019-05-12 18:09:37,929 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 99] 您输入的内容是 [423424]
+2019-05-12 18:09:37,929 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 100] ======================================
+2019-05-12 18:09:37,929 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 86] 请输入 申请时间 ? 格式：(yyyy-MM-dd)
+2019-05-12 18:09:39,507 ERROR [main] com.gbicc.activiti.DomeMain [DomeMain.java : 89] 您的输入有误，请按照要求输入！[42342]
+2019-05-12 18:09:39,508 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 90] 请输入 申请时间 ?
+2019-05-12 18:09:59,378 ERROR [main] com.gbicc.activiti.DomeMain [DomeMain.java : 89] 您的输入有误，请按照要求输入！[2022.22.2]
+2019-05-12 18:09:59,384 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 90] 请输入 申请时间 ?
+2019-05-12 18:10:15,090 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 99] 您输入的内容是 [2222-2-2]
+2019-05-12 18:10:15,091 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 100] ======================================
+2019-05-12 18:10:15,091 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 82] 请输入 确认申请 ?
+2019-05-12 18:10:20,817 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 99] 您输入的内容是 [y]
+2019-05-12 18:10:20,826 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 100] ======================================
+2019-05-12 18:10:20,879 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 71] 带处理的任务数量 [1]
+2019-05-12 18:10:20,879 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 74] 带处理的任务 [主管审批]
+2019-05-12 18:10:20,880 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 75] ======================================
+2019-05-12 18:10:20,886 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 82] 请输入 主管审批结果 ?
+2019-05-12 18:10:25,032 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 99] 您输入的内容是 [y]
+2019-05-12 18:10:25,033 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 100] ======================================
+2019-05-12 18:10:25,033 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 82] 请输入 主管备注 ?
+2019-05-12 18:10:27,826 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 99] 您输入的内容是 [同意]
+2019-05-12 18:10:27,826 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 100] ======================================
+2019-05-12 18:10:27,861 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 71] 带处理的任务数量 [1]
+2019-05-12 18:10:27,862 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 74] 带处理的任务 [人事审批]
+2019-05-12 18:10:27,863 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 75] ======================================
+2019-05-12 18:10:27,869 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 82] 请输入 人事审批结果 ?
+2019-05-12 18:10:30,142 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 99] 您输入的内容是 [y]
+2019-05-12 18:10:30,142 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 100] ======================================
+2019-05-12 18:10:30,142 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 82] 请输入 人事备注 ?
+2019-05-12 18:10:31,732 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 99] 您输入的内容是 [无]
+2019-05-12 18:10:31,732 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 100] ======================================
+2019-05-12 18:10:31,774 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 111] 结束程序
+2019-05-12 18:12:18,839 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 39] 启动程序
+2019-05-12 18:12:21,492 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 46] 流程引擎的名称 [default] ，流程引擎的版本 [6.0.0.4]
+2019-05-12 18:12:24,429 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 58] 流程定义文件 [二级审批流程] ，流程ID [second_approve:1:4] ，流程KEY [second_approve]
+2019-05-12 18:12:24,462 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 63] 启动流程 [second_approve]，[second_approve:1:4] 
+2019-05-12 18:12:24,482 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 71] 带处理的任务数量 [1]
+2019-05-12 18:12:24,488 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 74] 带处理的任务 [填写申请信息]
+2019-05-12 18:12:24,488 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 75] ======================================
+2019-05-12 18:12:24,499 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 82] 请输入 申请信息 ?
+2019-05-12 18:12:37,110 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 39] 启动程序
+2019-05-12 18:12:39,556 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 46] 流程引擎的名称 [default] ，流程引擎的版本 [6.0.0.4]
+2019-05-12 18:12:43,178 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 58] 流程定义文件 [二级审批流程] ，流程ID [second_approve:1:4] ，流程KEY [second_approve]
+2019-05-12 18:12:43,206 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 63] 启动流程 [second_approve]，[second_approve:1:4] 
+2019-05-12 18:12:43,228 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 71] 带处理的任务数量 [1]
+2019-05-12 18:12:43,236 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 74] 带处理的任务 [填写申请信息]
+2019-05-12 18:12:43,236 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 75] ======================================
+2019-05-12 18:12:43,246 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 82] 请输入 申请信息 ?
+2019-05-12 18:12:50,339 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 39] 启动程序
+2019-05-12 18:12:52,588 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 46] 流程引擎的名称 [default] ，流程引擎的版本 [6.0.0.4]
+2019-05-12 18:12:56,092 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 58] 流程定义文件 [二级审批流程] ，流程ID [second_approve:1:4] ，流程KEY [second_approve]
+2019-05-12 18:12:56,119 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 63] 启动流程 [second_approve]，[second_approve:1:4] 
+2019-05-12 18:12:56,137 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 71] 带处理的任务数量 [1]
+2019-05-12 18:12:56,144 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 74] 带处理的任务 [填写申请信息]
+2019-05-12 18:12:56,144 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 75] ======================================
+2019-05-12 18:12:56,155 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 82] 请输入 申请信息 ?
+2019-05-12 18:13:05,293 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 39] 启动程序
+2019-05-12 18:13:07,187 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 46] 流程引擎的名称 [default] ，流程引擎的版本 [6.0.0.4]
+2019-05-12 18:13:10,376 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 58] 流程定义文件 [二级审批流程] ，流程ID [second_approve:1:4] ，流程KEY [second_approve]
+2019-05-12 18:13:10,403 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 63] 启动流程 [second_approve]，[second_approve:1:4] 
+2019-05-12 18:13:10,423 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 71] 带处理的任务数量 [1]
+2019-05-12 18:13:10,429 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 74] 带处理的任务 [填写申请信息]
+2019-05-12 18:13:10,429 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 75] ======================================
+2019-05-12 18:13:10,441 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 82] 请输入 申请信息 ?
+2019-05-12 18:13:14,879 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 99] 您输入的内容是 [2222]
+2019-05-12 18:13:14,879 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 100] ======================================
+2019-05-12 18:13:14,880 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 82] 请输入 申请人姓名 ?
+2019-05-12 18:13:17,596 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 99] 您输入的内容是 [啦啦啦啦]
+2019-05-12 18:13:17,597 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 100] ======================================
+2019-05-12 18:13:17,597 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 86] 请输入 申请时间 ? 格式：(yyyy-MM-dd)
+2019-05-12 18:13:19,428 ERROR [main] com.gbicc.activiti.DomeMain [DomeMain.java : 89] 您的输入有误，请按照要求输入！[234242]
+2019-05-12 18:13:19,435 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 90] 请输入 申请时间 ? 格式：(yyyy-MM-dd)
+2019-05-12 18:14:17,315 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 39] 启动程序
+2019-05-12 18:14:19,116 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 46] 流程引擎的名称 [default] ，流程引擎的版本 [6.0.0.4]
+2019-05-12 18:14:21,847 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 58] 流程定义文件 [二级审批流程] ，流程ID [second_approve:1:4] ，流程KEY [second_approve]
+2019-05-12 18:14:21,878 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 63] 启动流程 [second_approve]，[second_approve:1:4] 
+2019-05-12 18:14:21,899 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 71] 带处理的任务数量 [1]
+2019-05-12 18:14:21,906 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 74] 带处理的任务 [填写申请信息]
+2019-05-12 18:14:21,906 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 75] ======================================
+2019-05-12 18:14:21,917 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 82] 请输入 申请信息 ?
+2019-05-12 18:15:10,966 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 39] 启动程序
+2019-05-12 18:15:12,963 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 46] 流程引擎的名称 [default] ，流程引擎的版本 [6.0.0.4]
+2019-05-12 18:15:15,729 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 58] 流程定义文件 [二级审批流程] ，流程ID [second_approve:1:4] ，流程KEY [second_approve]
+2019-05-12 18:15:15,755 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 63] 启动流程 [second_approve]，[second_approve:1:4] 
+2019-05-12 18:15:15,774 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 71] 带处理的任务数量 [1]
+2019-05-12 18:15:15,780 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 74] 带处理的任务 [填写申请信息]
+2019-05-12 18:15:15,780 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 75] ======================================
+2019-05-12 18:15:15,790 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 82] 请输入 申请信息 ?
+2019-05-12 18:15:27,106 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 39] 启动程序
+2019-05-12 18:15:29,507 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 46] 流程引擎的名称 [default] ，流程引擎的版本 [6.0.0.4]
+2019-05-12 18:15:32,525 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 58] 流程定义文件 [二级审批流程] ，流程ID [second_approve:1:4] ，流程KEY [second_approve]
+2019-05-12 18:15:32,554 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 63] 启动流程 [second_approve]，[second_approve:1:4] 
+2019-05-12 18:15:32,573 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 71] 带处理的任务数量 [1]
+2019-05-12 18:15:32,580 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 74] 带处理的任务 [填写申请信息]
+2019-05-12 18:15:32,580 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 75] ======================================
+2019-05-12 18:15:32,590 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 82] 请输入 申请信息 ?
+2019-05-12 18:15:59,616 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 39] 启动程序
+2019-05-12 18:16:01,525 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 46] 流程引擎的名称 [default] ，流程引擎的版本 [6.0.0.4]
+2019-05-12 18:16:04,854 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 58] 流程定义文件 [二级审批流程] ，流程ID [second_approve:1:4] ，流程KEY [second_approve]
+2019-05-12 18:16:04,883 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 63] 启动流程 [second_approve]，[second_approve:1:4] 
+2019-05-12 18:16:04,902 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 71] 带处理的任务数量 [1]
+2019-05-12 18:16:04,910 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 74] 带处理的任务 [填写申请信息]
+2019-05-12 18:16:04,912 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 75] ======================================
+2019-05-12 18:16:04,922 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 82] 请输入 申请信息 ?
+2019-05-12 18:16:12,253 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 39] 启动程序
+2019-05-12 18:16:14,133 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 46] 流程引擎的名称 [default] ，流程引擎的版本 [6.0.0.4]
+2019-05-12 18:16:16,710 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 58] 流程定义文件 [二级审批流程] ，流程ID [second_approve:1:4] ，流程KEY [second_approve]
+2019-05-12 18:16:16,736 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 63] 启动流程 [second_approve]，[second_approve:1:4] 
+2019-05-12 18:16:16,753 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 71] 带处理的任务数量 [1]
+2019-05-12 18:16:16,760 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 74] 带处理的任务 [填写申请信息]
+2019-05-12 18:16:16,760 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 75] ======================================
+2019-05-12 18:16:16,769 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 82] 请输入 申请信息 ?
+2019-05-12 18:17:49,969 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 39] 启动程序
+2019-05-12 18:17:51,778 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 46] 流程引擎的名称 [default] ，流程引擎的版本 [6.0.0.4]
+2019-05-12 18:17:54,471 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 58] 流程定义文件 [二级审批流程] ，流程ID [second_approve:1:4] ，流程KEY [second_approve]
+2019-05-12 18:17:54,499 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 63] 启动流程 [second_approve]，[second_approve:1:4] 
+2019-05-12 18:17:54,517 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 71] 带处理的任务数量 [1]
+2019-05-12 18:17:54,526 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 74] 带处理的任务 [填写申请信息]
+2019-05-12 18:17:54,527 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 75] ======================================
+2019-05-12 18:17:54,541 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 82] 请输入 申请信息 ?
+2019-05-12 18:18:16,851 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 39] 启动程序
+2019-05-12 18:18:20,327 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 46] 流程引擎的名称 [default] ，流程引擎的版本 [6.0.0.4]
+2019-05-12 18:18:23,336 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 58] 流程定义文件 [二级审批流程] ，流程ID [second_approve:1:4] ，流程KEY [second_approve]
+2019-05-12 18:18:23,361 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 63] 启动流程 [second_approve]，[second_approve:1:4] 
+2019-05-12 18:18:23,379 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 71] 带处理的任务数量 [1]
+2019-05-12 18:18:23,385 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 74] 带处理的任务 [填写申请信息]
+2019-05-12 18:18:23,385 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 75] ======================================
+2019-05-12 18:18:23,394 INFO [main] com.gbicc.activiti.DomeMain [DomeMain.java : 82] 请输入 申请信息 ?
