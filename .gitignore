@@ -1,7 +1,1 @@
-syntax: glob
-*~
-.DS_Store
-.settings
-target
-.classpath
-.project
+# Created by .ignore support plugin (hsz.mobi)
