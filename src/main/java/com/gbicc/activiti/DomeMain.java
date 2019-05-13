@@ -66,10 +66,10 @@ public class DomeMain {
 
             TaskService taskService = processEngine.getTaskService();
             List<Task> taskList = taskService.createTaskQuery().list();
-            LOGGER.info("带处理的任务数量 [{}]", taskList.size());
+            LOGGER.info("待处理的任务数 [{}]", taskList.size());
             HashMap<String, Object> map = Maps.newHashMap();
             for (Task task : taskList) {
-                LOGGER.info("带处理的任务 [{}]", task.getName());
+                LOGGER.info("待处理的任务 [{}]", task.getName());
                 LOGGER.info("======================================");
                 FormService formService = processEngine.getFormService();
                 TaskFormData taskFormData = formService.getTaskFormData(task.getId());
