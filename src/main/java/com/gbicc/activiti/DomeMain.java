@@ -53,12 +53,12 @@ public class DomeMain {
                 .createProcessDefinitionQuery()
                 .deploymentId(deploymentId)
                 .singleResult();
-        LOGGER.info("流程定义文件 [{}] ，流程ID [{}] ，流程KEY [{}]", processDefinition.getName(), processDefinition.getId(), processDefinition.getKey());
+        LOGGER.info("流程定义文件 [{}] ，流程ID [{}] ", processDefinition.getName(), processDefinition.getId());
 
         //启动运行流程
         RuntimeService runtimeService = processEngine.getRuntimeService();
         ProcessInstance processInstance = runtimeService.startProcessInstanceById(processDefinition.getId());
-        LOGGER.info("启动流程 [{}]，[{}] ", processInstance.getProcessDefinitionKey(), processInstance.getProcessDefinitionId());
+        LOGGER.info("启动流程 [{}] ", processInstance.getProcessDefinitionKey());
 
         //处理流程任务
         Scanner scanner = new Scanner(System.in);
